@@ -1,0 +1,34 @@
+
+.buttonContainer {
+  display: flex;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  min-width: 100px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  &:hover {
+    background-color: #ddd;
+  }
+}
+
+.confirm {
+  background-color: rgb(3, 3, 195);
+  color: #fff;
+  &:hover {
+    background-color: rgba(3, 3, 195, 0.56);
+  }
+}
+
+.delete {
+  background-color: #fff;
+  border: 1px solid #f40707;
+  color: #f40707;
+  &:hover {
+    background-color: rgba(197, 6, 6, 0.07);
+  }
+}

@@ -1,0 +1,27 @@
+
+.treeConeContainer {
+  margin-left: 20px;
+  cursor: pointer;
+
+  .treeNodeContent {
+    display: flex;
+
+    &:hover .treeNodeEvents {
+      display: flex;
+    }
+
+    .treeNodeEvents {
+      gap: 5px;
+      margin-left: 10px;
+      display: none;
+      button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
