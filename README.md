@@ -30,7 +30,7 @@ The project uses Feature-Sliced Design (FSD), a frontend application design meth
 2. Go to the project directory:
 
    ```bash
-   cd popular-ts-projects
+   cd node-tree
    ```
 
 3. Install dependencies:
